@@ -1,0 +1,58 @@
+.Recipe {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 10px;
+  border-bottom: 1px solid #efefef;
+  cursor: pointer;
+}
+
+.Recipe:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.RecipeImgHolder {
+  width: 80px;
+  flex: 0 0 80px;
+  text-align: center;
+}
+
+.RecipeImgHolder img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.RecipeButtonHolder {
+  width: 20px;
+  flex: 0 0 20px;
+}
+
+.RecipeContentHolder {
+  flex: 1;
+  padding: 0 20px;
+  color: #6c757d;
+}
+
+.RecipeByLine {
+  font-size: 14px;
+}
+
+.RecipePublishedDate {
+  font-size: 12px;
+}
+
+.RecipePublishedDateIcon {
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+  margin-right: 4px;
+}
+.each-recipe {
+  padding: 8px 70px 8px 70px;
+  cursor: pointer;
+}
+
+.each-recipe:hover {
+  background: #e9ecef;
+}
